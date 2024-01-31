@@ -16,9 +16,9 @@ The google colab file link for yolov8 object detection and tracking is provided 
 
 ## Steps to run Code
 
-- Clone the repository
+- Clone the repository (Proyecto clonado)
 ```
-git clone https://github.com/MuhammadMoinFaisal/YOLOv8-DeepSORT-Object-Tracking.git
+git clone https://github.com/SamuelEPradoT/YOLOv8-DeepSORT-Object-Tracking.git
 ```
 - Goto the cloned folder.
 ```
@@ -35,14 +35,14 @@ pip install -e '.[dev]'
 cd ultralytics/yolo/v8/detect
 
 ```
-- Downloading the DeepSORT Files From The Google Drive 
+- Downloading the DeepSORT Files From The Google Drive (Ya descargado)
 ```
 
 https://drive.google.com/drive/folders/1kna8eWGrSfzaR6DtNJ8_GchGgPMv3VC8?usp=sharing
 ```
-- After downloading the DeepSORT Zip file from the drive, unzip it go into the subfolders and place the deep_sort_pytorch folder into the yolo/v8/detect folder
+- After downloading the DeepSORT Zip file from the drive, unzip it go into the subfolders and place the deep_sort_pytorch folder into the yolo/v8/detect folder (Ya descargado)
 
-- Downloading a Sample Video from the Google Drive
+- Downloading a Sample Video from the Google Drive (Ya descargado)
 ```
 gdown "https://drive.google.com/uc?id=1rjBn8Fl1E_9d0EMVtL24S9aNQOJAveR5&confirm=t"
 ```
@@ -53,7 +53,7 @@ gdown "https://drive.google.com/uc?id=1rjBn8Fl1E_9d0EMVtL24S9aNQOJAveR5&confirm=
 ```
 python predict.py model=yolov8l.pt source="test3.mp4" show=True
 ```
-- For yolov8 object detection + Tracking + Vehicle Counting
+- For yolov8 object detection + Tracking + Vehicle Counting (Esto falta por hacer)
 - Download the updated predict.py file from the Google Drive and place it into ultralytics/yolo/v8/detect folder 
 - Google Drive Link
 ```
