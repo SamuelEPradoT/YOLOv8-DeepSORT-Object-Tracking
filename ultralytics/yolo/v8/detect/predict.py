@@ -29,7 +29,7 @@ object_counter = {}
 
 object_counter1 = {}
 
-line = [(100, 500), (1050, 500)]
+line = [(100, 300), (540, 300)]
 def init_tracker():
     global deepsort
     cfg_deep = get_config()
