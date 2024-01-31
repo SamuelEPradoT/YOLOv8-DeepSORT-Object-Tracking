@@ -1,6 +1,21 @@
 <H1 align="center">
 YOLOv8 Object Detection with DeepSORT Tracking(ID + Trails) </H1>
 
+## Resumen esencial
+El código está funcionando correctamente. Se arreglaron todos los elementos deprecados del código, todos los archivos están en carpeta, y para usar el código con un video en específico, se aplica la siguiente línea en la terminal:
+- Identificar carpeta.
+```
+cd ultralytics/yolo/v8/detect
+- Aplicar código (Video: video_traffic_2.mp4).
+```
+python predict.py model=yolov8l.pt source="video_traffic_2.mp4" show=True
+
+El output queda en la carpeta: YOLOv8-DeepSORT-Object-Tracking\runs\detect
+
+## Por hacer
++ Modificar código para que la línea sea proporcional al tamaño de los frames del video
++ Implementar FLASK para que el output sea redirigido a la API.
+
 ## Google Colab File Link (A Single Click Solution)
 The google colab file link for yolov8 object detection and tracking is provided below, you can check the implementation in Google Colab, and its a single click implementation, you just need to select the Run Time as GPU, and click on Run All.
 
