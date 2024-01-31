@@ -6,10 +6,11 @@ El código está funcionando correctamente. Se arreglaron todos los elementos de
 - Identificar carpeta.
 ```
 cd ultralytics/yolo/v8/detect
+```
 - Aplicar código (Video: video_traffic_2.mp4).
 ```
 python predict.py model=yolov8l.pt source="video_traffic_2.mp4" show=True
-
+```
 El output queda en la carpeta: YOLOv8-DeepSORT-Object-Tracking\runs\detect
 
 ## Por hacer
