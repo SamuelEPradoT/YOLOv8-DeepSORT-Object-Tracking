@@ -3,7 +3,21 @@ YOLOv8 Object Detection with DeepSORT Tracking(ID + Trails) </H1>
 
 ## Resumen esencial
 El código está funcionando correctamente. Se arreglaron todos los elementos deprecados del código, todos los archivos están en carpeta, y para usar el código con un video en específico, se aplica la siguiente línea en la terminal:
-- Identificar carpeta.
+- Clonar proyecto
+```
+git clone https://github.com/SamuelEPradoT/YOLOv8-DeepSORT-Object-Tracking.git
+```
+- Ir a la carpeta de proyecto
+```
+cd YOLOv8-DeepSORT-Object-Tracking
+```
+- Instalar dependencias
+```
+pip install -e '.[dev]'
+pip install torch
+
+```
+- Identificar carpeta del código en cuestión (ahí se dejan los videos input).
 ```
 cd ultralytics/yolo/v8/detect
 ```
