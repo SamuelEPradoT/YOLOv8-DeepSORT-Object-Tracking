@@ -15,7 +15,6 @@ cd YOLOv8-DeepSORT-Object-Tracking
 ```
 pip install -e '.[dev]'
 pip install torch
-
 ```
 - Identificar carpeta del código en cuestión (ahí se dejan los videos input).
 ```
